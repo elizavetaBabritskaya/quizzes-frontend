@@ -1,0 +1,12 @@
+.layout_content {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding-top: 147px;
+  padding-bottom: 147px;
+  background: #E6F0FF;
+  align-items: flex-start;
+  justify-content: center;
+}

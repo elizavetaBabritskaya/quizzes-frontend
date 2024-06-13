@@ -1,0 +1,142 @@
+.buttons_ans {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.button_ans:not([active]):hover {
+  color: #393939;
+  background: #D9E8FF;
+  border-radius: 10px;
+}
+
+.button__answer_selected {
+  background: #C0D9FF;
+  border-radius: 10px;
+  color: #393939;
+}
+
+.button__answer_selected:not([active]):hover {
+  background: #C0D9FF;
+  border-radius: 10px;
+  color: #393939;
+}
+
+.send_ans {
+  background: #0066FF;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding: 16px 61px;
+  height: 55px;
+}
+
+.send_ans:disabled {
+  background: #C1C1C1;
+}
+
+.game-process {
+  max-width: 332px;
+  width: 100%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.card__score {
+  width: 100%;
+  padding: 15px 12px;
+}
+
+.card__header-score {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_card-score {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+}
+
+
+.score_game {
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  align-items: center;
+  justify-content: center;
+}
+
+.datas_player {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.scors {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer {
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #393939;
+  height: 53px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.link-exit {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #393939;
+  margin-top: 13px;
+}

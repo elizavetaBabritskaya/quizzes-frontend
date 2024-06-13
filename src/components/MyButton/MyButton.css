@@ -1,0 +1,169 @@
+.send-answer {
+  background: #0066FF;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding: 16px 61px;
+  height: 55px;
+}
+.send-answer:hover {
+  background: #297FFF;
+  color: #FFFFFF;
+}
+
+.send-answer:active {
+  background: #005CE6;
+  color: #FFFFFF;
+}
+
+.send-answer:disabled {
+  background: #C1C1C1;
+}
+
+.button_ans {
+  background: #E6F0FF;
+  border-radius: 10px;
+  padding: 17px 15px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  height: 57px;
+  width: 100%;
+}
+
+.button_ans:hover {
+  background: #E6F0FF;
+  color: #393939;
+}
+
+.send_ans {
+  background: #0066FF;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding: 16px 61px;
+  height: 55px;
+}
+:where(.send_ans):hover {
+  background: #297FFF;
+  color: #FFFFFF;
+}
+
+.send_ans:active {
+  background: #005CE6;
+  color: #FFFFFF;
+}
+
+.send_ans:disabled {
+  background: #C1C1C1;
+  color: #FFFFFF;
+}
+
+.button_ans {
+  background: #E6F0FF;
+  border-radius: 10px;
+  padding: 17px 15px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  height: 57px;
+  width: 100%;
+}
+
+/* .button_ans:not([active]):hover {
+  background: #E6F0FF;
+  color: #393939;
+} */
+
+.button_ans:disabled {
+  color: #393939;
+  background: #E6F0FF;;
+}
+
+.button_ans:disabled.button__answer-wrong {
+  background: #FFD9D9;
+  color: #393939;
+}
+
+.button_ans:disabled.button__answer-wrong:not([active]):hover {
+  background: #FFD9D9;
+  color: #393939;
+}
+
+.button_ans:disabled.button__answer-correct:not([active]):hover {
+  background: #CCFFE0;
+}
+
+
+.button_ans:disabled.button__answer-wrong::after {
+  content: '';
+  position: absolute;
+  right: 22px;
+  top: 13px;
+  width: 32px;
+  height: 32px;
+  background-image: url('./images/healthicons_no.svg');
+}
+
+.button_ans:disabled.button__answer-correct::after {
+  content: '';
+  position: absolute;
+  right: 22px;
+  top: 13px;
+  width: 32px;
+  height: 32px;
+  background-image: url('./images/healthicons_yes.svg');
+}
+
+.button_ans:disabled.button__answer-correct {
+  background: #CCFFE0;
+}
+
+.button__rooms {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #0066FF;
+  background: #FFFFFF;
+  border: 1px solid #0066FF;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px; 
+}
+
+.button__rooms:hover {
+  background: #EDF4FF;
+  color: #0066FF;
+}
+
+.button__rooms:active {
+  background: #D3E4FF;
+  color: #0066FF;
+}

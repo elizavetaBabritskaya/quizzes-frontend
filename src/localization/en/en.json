@@ -1,0 +1,59 @@
+{
+  "layout": {
+    "header": {
+      "game-rules":"Game rules",
+      "vevo": "Vevo"
+    }
+  },
+  "components": {
+    "PasswordInput": {
+      "label": "Password"
+    },
+    "EmailInput": {
+      "label":"Email"
+    },
+    "NameInput": {
+      "label":"Name"
+    },
+    "RoomNameInput":{
+      "label":"Room name"
+    }
+  },
+  "cards": {
+    "card-rules": {
+      "title_card": "Game rules",
+      "start": "Start"
+    },
+    "card-sign":{
+      "title_card":"Sign in",
+      "submit": "Continue",
+      "isRegist": "Don’t have an account yet?",
+      "linkRegist":"Register instead"
+    },
+    "card-regestration": {
+      "title_card":"Regestration",
+      "submit": "Continue",
+      "hasAccount":"Already have an account?",
+      "LinkSign":"Sign in"
+    },
+    "card-createRoom": {
+      "title_card":"Create room",
+      "submit": "Continue"
+    },
+    "card-gameRooms": {
+      "title_card":"Game rooms",
+      "join":"You can join any room or",
+      "link":"create your own room"
+    },
+    "card-end":{
+      "title_card": "Game rules",
+      "end": "Play again"
+    },
+    "error":{
+      "400":"Incorrect data",
+      "404":"Invalid login or password",
+      "500":"Server is unavailable",
+      "error":"error"
+    }
+  }
+}

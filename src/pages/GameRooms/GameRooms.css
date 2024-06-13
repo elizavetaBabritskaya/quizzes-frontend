@@ -1,0 +1,35 @@
+.card__rooms {
+  max-width: 760px;
+  width: 100%;
+  padding: 60px 220px 85px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content_card {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.group_rooms {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+}
+

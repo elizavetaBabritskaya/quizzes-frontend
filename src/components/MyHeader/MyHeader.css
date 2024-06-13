@@ -1,0 +1,47 @@
+.site-layout-content {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.layout__header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 28px 152px;
+}
+
+.header__button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939; 
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} 
+
+.header__button:not([active]):hover {
+  background: #fff;
+}
+
+.buttons__logout {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #393939;
+  margin-left: 75px;
+}
+
+.button__vevo {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,116 @@
+.card_game {
+  padding: 33px 73px 23px;
+  border-radius: 20px;
+  max-width: 880px;
+  width: calc(100% - 73px);
+}
+
+.card-sign {
+  max-width: 727px;
+  width: 100%;
+  padding: 64px 176px 61px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title_card {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+}
+
+.title_card-sign {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+}
+
+.text_card {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  margin-bottom: 18px;
+}
+
+.card_start {
+  max-width: 1041px;
+  width: 100%;
+  padding: 65px 85px 93px;
+  border-radius: 20px;
+}
+
+.card_start div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_end {
+  max-width: 727px;
+  width: calc(100% );
+  padding: 64px 176px 61px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__title_header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #0066FF;
+}
+
+.point-game {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+}
+
+.card-create-room {
+  padding: 33px 108px 23px;
+  border-radius: 20px;
+  max-width: 594px;
+  width: 100%;
+}

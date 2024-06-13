@@ -1,0 +1,57 @@
+.card_start {
+  max-width: 1041px;
+  width: 100%;
+  padding: 65px 85px 93px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start_card_header {
+  text-align: center;
+  width: 100%;
+  display: inline;
+}
+
+.title_card {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393939;
+  text-align: center;
+}
+
+.content_card {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text_card {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #393939;
+  margin-bottom: 18px;
+}
+
+.button_start {
+  background: #0066FF;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding: 16px 61px;
+  height: 55px;
+}
